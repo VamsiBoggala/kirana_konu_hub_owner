@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "154035316108",
+    "project_id": "kirana-konu",
+    "storage_bucket": "kirana-konu.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154035316108:android:bce00c599fc6425c2462a9",
+        "android_client_info": {
+          "package_name": "com.kiranakonu.owner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwfvSY21P4femwmYHQ-beYgpYLt3NWsco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

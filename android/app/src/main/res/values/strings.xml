@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kirana Konu Owner</string>
+    
+    <!-- Disable SafetyNet for Firebase Auth during development -->
+    <bool name="firebase_auth_app_check_debug_enabled">true</bool>
+    
+    <!-- Disable SafetyNet attestation -->
+    <bool name="google_play_services_safety_net_skip_attestation">true</bool>
+</resources>

@@ -1,0 +1,103 @@
+name: hub_owner
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  
+  # State Management - BLoC Pattern
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  provider: ^6.1.2
+  
+  # Local Storage for Theme Preference
+  shared_preferences: ^2.3.3
+  
+  # Firebase
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.2
+  firebase_storage: ^12.3.8
+  
+  # File & Image Handling
+  image_picker: ^1.1.2
+  file_picker: ^8.1.4
+  
+  # Location Services
+  geolocator: ^13.0.2
+  permission_handler: ^11.3.1
+  
+  # Network Monitoring
+  connectivity_plus: ^6.1.0
+  
+  # Utilities
+  intl: any
+  pinput: ^6.0.1
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.2
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  # Assets
+  assets:
+    - assets/images/logo/
+    - assets/images/
+
+  # Fonts
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+
+# Native Splash Screen Configuration
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/logo/app_logo.png
+  android: true
+  ios: true
+  web: false
+  
+  # Preserve the full image without scaling
+  fullscreen: true
+  
+  # Android 12+ specific - will use padded logo
+  android_12:
+    image: assets/images/logo/app_logo_padded.png
+    color: "#FFFFFF"
+
+# App Launcher Icons Configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo/app_logo.png"
+  min_sdk_android: 21
+  
+  # Adaptive icon for Android
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/logo/app_logo.png"

@@ -1,0 +1,202 @@
+{
+  "@@locale": "en",
+  "loginTitle": "Login",
+  "loginSubtitle": "Enter your mobile number to continue",
+  "mobileNumberLabel": "Mobile Number",
+  "mobileNumberRequired": "Mobile number is required",
+  "mobileNumberInvalid": "Please enter a valid mobile number",
+  "termsAgreement": "By continuing, you agree to our",
+  "termsOfService": "Terms of Service",
+  "privacyPolicy": "Privacy Policy",
+  "and": "and",
+  "verificationTitle": "Verification",
+  "enterVerificationCode": "Enter Verification Code",
+  "verificationCodeSentTo": "We have sent a 6-digit code to {phoneNumber}",
+  "@verificationCodeSentTo": {
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "securityNote": "Do not share this code with anyone.",
+  "verifyButton": "Verify",
+  "resendCode": "Didn't receive code? Resend",
+  "selectLanguage": "Select Language",
+  "welcomeBack": "Welcome Back!",
+  "enterPhoneToContinue": "Enter your phone number to continue",
+  "phoneHint": "Enter 10-digit mobile number",
+  "continueButton": "Continue",
+  "newToApp": "New to Kirana Konu?",
+  "registerAsPartner": "Register as Partner",
+  "otpInfo": "We will send you a one-time password (OTP) to verify your phone number.",
+  
+  "personalDetailsTitle": "Personal Details",
+  "personalDetailsHeader": "Let's get to know you",
+  "personalDetailsSubHeader": "Please provide your personal and business details",
+  "ownerNameLabel": "Owner Full Name",
+  "ownerNameHint": "Enter your full name",
+  "shopNameLabel": "Shop/Hub Name",
+  "shopNameHint": "e.g., Raju Traders",
+  "businessLocationTitle": "Business Location",
+  "locationDetected": "Location Detected",
+  "locationNotDetected": "Location Not Detected",
+  "updateLocation": "Update Location",
+  "detectLocation": "Detect My Location",
+  "continueToDocs": "Continue to Business Documents",
+  "locationPermissionBlocked": "Location Permission Blocked",
+  "locationPermissionDeniedMessage": "Location permission has been permanently denied. Please enable it from app settings to continue.",
+  "openSettings": "Open Settings",
+  "cancel": "Cancel",
+  "locationRequired": "Please detect your location first",
+  "locationSuccess": "Location detected successfully!",
+  "settings": "Settings",
+
+  "businessDocsTitle": "Business Documents",
+  "businessDocsHeader": "Business Verification",
+  "businessDocsSubHeader": "Please provide your business documents for KYB verification",
+  "gstinSection": "GSTIN Certificate",
+  "gstinLabel": "GSTIN Number",
+  "gstinHint": "e.g., 27AAPFU0939F1ZV",
+  "uploadGstin": "Upload GSTIN Certificate",
+  "uploadGstinHint": "Upload clear image or PDF of GSTIN Certificate",
+  "fssaiSection": "FSSAI License",
+  "fssaiLabel": "FSSAI License Number",
+  "fssaiHint": "14-digit FSSAI number",
+  "uploadFssai": "Upload FSSAI License",
+  "uploadFssaiHint": "Upload clear image or PDF of FSSAI License",
+
+  "panSection": "PAN Card",
+  "panLabel": "PAN Card Number",
+  "panHint": "e.g., ABCDE1234F",
+  "uploadPan": "Upload PAN Card",
+  "uploadPanHint": "Upload clear image or PDF of PAN Card",
+
+  "shopLicenseSection": "Shop License",
+  "shopLicenseLabel": "Shop License Number",
+  "shopLicenseHint": "Enter your shop license number",
+  "uploadShopLicense": "Upload Shop License",
+  "uploadShopLicenseHint": "Upload clear image or PDF of Shop License",
+
+  "shopImageSection": "Shop Photo",
+  "uploadShopImage": "Upload Shop Photo",
+  "uploadShopImageHint": "Upload a clear photo of your shop",
+
+  "bankDetailsTitle": "Bank Details",
+  "financialSettlementHeader": "Financial Settlement",
+  "financialSettlementSubHeader": "Provide bank details for receiving payouts",
+  "accountHolderLabel": "Account Holder Name",
+  "accountHolderHint": "Name as per bank account",
+  "accountNumberLabel": "Bank Account Number",
+  "accountNumberHint": "Enter account number",
+  "confirmAccountLabel": "Confirm Account Number",
+  "confirmAccountHint": "Re-enter account number",
+  "ifscLabel": "IFSC Code",
+  "ifscHint": "e.g., SBIN0001234",
+  "branchLabel": "Branch Name (Optional)",
+  "branchHint": "Will be auto-filled if available",
+  "cancelledChequeSection": "Cancelled Cheque",
+  "uploadCheque": "Upload Cancelled Cheque/Passbook",
+  "uploadChequeHint": "Upload clear image showing account details",
+  "bankInfoNote": "Your bank details will be used for receiving payments. Please ensure all information is accurate.",
+  
+  "backButton": "Back",
+  "uploadSuccess": "{documentType} document uploaded successfully",
+  "@uploadSuccess": {
+    "placeholders": {
+      "documentType": {
+        "type": "String"
+      }
+    }
+  },
+  "uploadFailed": "Upload failed: {error}",
+  "@uploadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "reviewSubmitTitle": "Review & Submit",
+  "termsPoliciesHeader": "Terms & Policies",
+  "termsPoliciesSubHeader": "Please review and accept our terms before submitting",
+  "termsOfService": "Terms of Service",
+  "commissionPolicy": "Commission Policy",
+  "agreeToTerms": "I have read and agree to the Terms of Service and Commission Policy",
+  "submitApplication": "Submit Application",
+  "verificationPendingTitle": "Verification Process",
+  "verificationPendingMessage": "Your application will be reviewed within 24-48 hours. You will receive a notification once approved.",
+  "submissionFailed": "Submission failed: {error}",
+  "@submissionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "registrationSuccessTitle": "Application Submitted!",
+  "registrationSuccessMessage": "Thank you for submitting your registration application. Our team will review your documents and get back to you within 24-48 hours.",
+  "backToLogin": "Back to Login",
+
+  "applicationSubmitted": "Application Submitted!",
+  "applicationId": "Application ID",
+  "saveIdInfo": "Save this ID for future reference",
+  "verificationInProgress": "Verification in Progress",
+  "verificationInProgressSub": "Your documents are being reviewed",
+  "notifyYou": "We'll Notify You",
+  "notifyYouSub": "You'll receive an email/SMS update",
+  "needHelp": "Need Help?",
+  "contactSupport": "Contact support@kiranakonu.com",
+  "done": "Done",
+  "approvalPendingTitle": "Approval Pending",
+  "approvalPendingMessage": "Your application is currently under review. You will be notified once it is approved. This typically takes 24-48 hours.",
+  "applicationRejectedTitle": "Application Rejected",
+  "applicationRejectedMessage": "Unfortunately, your application was rejected. Please contact support for more information.",
+  "ok": "OK",
+
+  "nameRequired": "Name is required",
+  "nameMinLength": "Name must be at least 2 characters",
+  "nameMaxLength": "Name must not exceed 50 characters",
+  "nameAlpha": "Name can only contain letters and spaces",
+  "mobileRequired": "Mobile number is required",
+  "mobileInvalid": "Please enter a valid 10-digit mobile number",
+  "gstinRequired": "GSTIN is required",
+  "gstinInvalid": "Please enter a valid GSTIN (e.g., 27AAPFU0939F1ZV)",
+  "fssaiRequired": "FSSAI License Number is required",
+  "fssaiInvalid": "FSSAI License must be 14 digits",
+  "panRequired": "PAN Card is required",
+  "panInvalid": "Please enter a valid PAN (e.g., ABCDE1234F)",
+  "shopLicenseRequired": "Shop License Number is required",
+  "shopImageRequired": "Shop photo is required",
+  "accountRequired": "Account number is required",
+  "accountInvalid": "Account number must be 9-18 digits",
+  "ifscRequired": "IFSC Code is required",
+  "ifscInvalid": "Please enter a valid IFSC Code (e.g., SBIN0001234)",
+  "shopRequired": "Shop/Hub name is required",
+  "shopMinLength": "Shop name must be at least 3 characters",
+  "shopMaxLength": "Shop name must not exceed 100 characters",
+  "otpRequired": "OTP is required",
+  "otpInvalid": "OTP must be 6 digits",
+  "confirmAccountRequired": "Please confirm account number",
+  "accountMismatch": "Account numbers do not match",
+  "mobileAuthError": "Unable to verify mobile number. Please login again.",
+  "mobileDoesNotMatch": "Mobile number must match your login number: {authMobile}",
+  "@mobileDoesNotMatch": {
+    "placeholders": {
+      "authMobile": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileHelperMatch": "Must match your login number: {authMobile}",
+  "@mobileHelperMatch": {
+    "placeholders": {
+      "authMobile": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileHelperDefault": "Enter your registered mobile number"
+}
